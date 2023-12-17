@@ -1,0 +1,43 @@
+.contact-title {
+  color: white;
+  margin-top: 17rem;
+  font-size: 3rem;
+  margin-bottom: 7rem;
+  text-align: center;
+}
+
+.contact-icon {
+  color: #eaaa00;
+}
+
+.contact-icons {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-left: 9rem;
+}
+
+.contact {
+  text-align: center;
+  margin-bottom: 15rem;
+}
+
+.details {
+  color: white;
+  font-weight: 700;
+}
+
+.contact-icons {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.5s ease-in-out,
+    transform 0.5s ease-in-out;
+}
+
+.contact-icons.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}

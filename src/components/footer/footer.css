@@ -1,0 +1,50 @@
+.sub-footer {
+  display: flex;
+  color: white;
+  gap: 11rem;
+  margin-left: 7rem;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30rem;
+}
+
+.footer-links {
+  text-align: center;
+}
+
+.last-line {
+  color: white;
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.sub-footer-details {
+  color: #999999;
+}
+
+.logo {
+  color: #999999;
+  font-size: 2rem;
+}
+
+.logos {
+  margin-left: 7rem;
+  margin-top: 3rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.logos {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition:
+    opacity 0.5s,
+    transform 0.5s;
+}
+
+.logos.show-logos {
+  opacity: 1;
+  transform: translateX(0);
+}

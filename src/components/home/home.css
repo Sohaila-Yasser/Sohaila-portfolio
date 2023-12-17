@@ -1,0 +1,67 @@
+.hello,
+.yasser,
+.sohaila {
+  color: #eaaa00;
+}
+
+.developer,
+.im {
+  color: white;
+}
+
+.home {
+  margin-left: 12rem;
+  margin-top: 11rem;
+  display: flex;
+  gap: 6rem;
+}
+
+.im,
+.sohaila,
+.yasser {
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+
+.yasser {
+  margin-top: -2rem;
+}
+
+.home-img {
+  image-rendering: auto;
+  width: 21rem;
+  height: 21rem;
+  margin-top: 1rem;
+}
+
+.developer {
+  margin-top: -2rem;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+.home-button-one {
+  color: white;
+  background-color: black;
+  border-radius: 4px;
+  border-color: white;
+  width: 7rem;
+  height: 3rem;
+  border-width: 0.1px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.home-button-two {
+  color: black;
+  background-color: #eaaa00;
+  border-radius: 4px;
+  border: none;
+  width: 7rem;
+  height: 3rem;
+  font-size: 1rem;
+  cursor: pointer;
+}

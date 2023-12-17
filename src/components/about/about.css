@@ -1,0 +1,20 @@
+.sub-about {
+  color: white;
+  float: right;
+  margin-right: 10rem;
+}
+.about-title {
+  color: #eaaa00;
+  font-size: 3rem;
+}
+
+.about {
+  margin-top: 19rem;
+}
+
+.info-icon {
+  color: white;
+  font-size: 14rem;
+  margin-left: 14rem;
+  margin-top: 4rem;
+}

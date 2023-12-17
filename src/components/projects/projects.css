@@ -1,0 +1,21 @@
+.projects-title {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 6rem;
+}
+
+.projects {
+  margin-top: 20rem;
+  text-align: center;
+}
+
+.project-img {
+  width: 28rem;
+  height: 25rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.carousel-item-padding {
+  margin-right: 10rem;
+}

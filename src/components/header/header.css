@@ -1,0 +1,42 @@
+.header-component {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+}
+
+.header-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 3rem;
+  margin-top: 1.8rem;
+  margin-left: 45rem;
+}
+.header-links li {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header-links a {
+  position: relative;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease;
+  outline: none;
+}
+
+.header-links a:hover,
+.header-links a.active,
+.header-links a:focus {
+  border-bottom: 2px solid #eaaa00;
+}
+.header-links a:hover b,
+.header-links a.active b,
+.header-links a:focus b {
+  color: #eaaa00;
+}

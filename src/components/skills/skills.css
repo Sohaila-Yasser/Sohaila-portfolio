@@ -1,0 +1,50 @@
+.skills {
+  margin-top: 50rem;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4rem;
+}
+
+.progress {
+  background-color: #eaaa00;
+  border-radius: 4px;
+  height: 0.9rem;
+}
+.progress-bar {
+  width: 30rem;
+  background-color: grey;
+  border-radius: 4px;
+  height: 0.9rem;
+}
+
+.skill-name {
+  font-size: 1.7rem;
+  margin-bottom: -1rem;
+}
+
+.skill-title {
+  margin-bottom: 4rem;
+  font-size: 3rem;
+}
+
+.skill-progress-bar {
+  margin-bottom: 2rem;
+  margin-left: 14rem;
+}
+
+.level {
+  margin-left: 28rem;
+}
+.skill-progress-bar {
+  opacity: 0;
+  transform: translateX(-50%);
+  transition:
+    opacity 0.8s ease-out,
+    transform 0.8s ease-out;
+}
+
+.skill-progress-bar.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
