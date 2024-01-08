@@ -44,6 +44,12 @@ const sliderImageUrl = [
   {
     url: "https://i.postimg.cc/CKb1yVmF/list.png",
   },
+  {
+    url: "https://i.postimg.cc/k4j4n6n7/Capture.png"
+  },
+  {
+    url: "https://i.postimg.cc/fLksfHNh/55.png"
+  }
 ];
 
 // ... (your existing imports)
